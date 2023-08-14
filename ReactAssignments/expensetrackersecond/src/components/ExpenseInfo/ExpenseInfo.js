@@ -20,7 +20,7 @@ const ExpenseInfo = (props) => {
     setTotal(p+l);
     setProfit(p);
     setLoss(l);
-  }, [expenses, setLoss, setProfit, setTotal]);
+  }, [expenses]);
 
   return (
     <div className={styles.expenseInfoContainer}>
